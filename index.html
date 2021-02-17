@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="col-lg-4 login myMargin">
+        <div style="background-color: white; padding: 25px;">
+          <h3>Login</h3>
+          
+        <form action="todo.html" class="form" id="formsubmit" onsubmit="return validateLogin()">
+          <div class="form-floating  mb- control">
+            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" >
+            <label for="floatingInput" id="userlabel">Username</label>
+           
+            <!--<span style="color:red" id="emailaddr"></span> -->
+          </div>
+          <br>
+
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword" id="passwrd">Password</label>
+            
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Keep logging in</label>
+          </div>
+          <div style="text-align: center;">
+            <button type="submit" class="btn btn-primary" >Login</button>
+          </div>
+        </form>
+      </div>
+      </div>
+      </div>
+
+      <script src="./js/login.js"></script>
+</body>
+</html>
